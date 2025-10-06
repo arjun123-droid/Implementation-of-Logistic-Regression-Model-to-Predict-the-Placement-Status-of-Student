@@ -22,7 +22,7 @@ RegisterNumber: 25017547
 */
 import pandas as pd
 
-data = pd.read_csv("C:/Users/SEC/Downloads/Placement_Data.csv")
+data = pd.read_csv("/content/Placement_Data.csv")
 data.head()
 
 data1 = data.copy()
